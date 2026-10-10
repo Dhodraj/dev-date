@@ -1,5 +1,17 @@
-# Dev_Date
+# dev-date
 
-Techstack: React.Js , Firebase , Material UI
+A Tinder-style front end: a stack of cards you swipe left or right, with a chat screen behind it. No real matching; it is a UI build.
 
-## [Explore live](https://tinder-clone-ebc2e.web.app/)
+Built in 2021.
+
+A React app on Firebase. Cards come from Firestore, swiping uses `react-tinder-card`, and sign-in is Google through Firebase Auth. The old demo site is down.
+
+## Run it
+
+```bash
+cd my-app
+npm install
+npm start
+```
+
+It reads Firebase config from `my-app/src/firebase.js`, which ships with a placeholder API key. Add your own Firebase web config there, and enable Firestore and Google sign-in in your Firebase project.
